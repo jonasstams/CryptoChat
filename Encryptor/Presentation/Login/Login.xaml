@@ -1,0 +1,21 @@
+﻿<Window x:Class="Encryptor.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Encryptor"
+        mc:Ignorable="d"
+        Title="Login" Height="251.481" Width="631.812">
+    <Grid>
+        <Rectangle Height="198" Stroke="Black" VerticalAlignment="Top" Margin="10,10,27.6,0"/>
+
+        <TextBox x:Name="UserNameTextBox" TabIndex="0" HorizontalAlignment="Left" Height="23" Margin="183,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="393" FontSize="16" FontFamily="Tahoma" Text="Jonas"/>
+        <Label x:Name="label" Content="Username"  HorizontalAlignment="Left" Margin="11,70,0,0" VerticalAlignment="Top" Width="117" FontSize="16" FontFamily="Tahoma"/>
+        <Label x:Name="label_Copy" Content="Password" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" Width="117" FontSize="16" FontFamily="Tahoma"/>
+        <Label x:Name="label_Copy1" Content="LOG IN OR REGISTER" HorizontalAlignment="Left" Margin="11,10,0,0" VerticalAlignment="Top" Width="315" FontSize="26.667" FontFamily="Tahoma" FontWeight="Bold"/>
+        <Button x:Name="LoginButton" Content="Log In" TabIndex="2" HorizontalAlignment="Left" Margin="501,170,0,0" VerticalAlignment="Top" Width="75" FontFamily="Tahoma" FontSize="18.667" Click="LoginButton_Click"/>
+        <Button x:Name="RegisterButton" Content="Register" HorizontalAlignment="Left" Margin="399,170,0,0" VerticalAlignment="Top" Width="75" FontFamily="Tahoma" FontSize="18.667" Click="RegisterButton_Click"/>
+        <PasswordBox x:Name="PasswordBox" TabIndex="1" HorizontalAlignment="Left" Margin="183,102,0,0" Width="393" VerticalAlignment="Top" Height="23" Password="testertje123"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,27 @@
+﻿<Window x:Class="Encryptor.Presentation.Login.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Encryptor.Presentation.Login"
+        mc:Ignorable="d"
+              Title="Register" Height="313.703" Width="768.703">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="264" Stroke="Black" VerticalAlignment="Top" Width="571" Margin="10,10,0,0"/>
+
+        <TextBox x:Name="UserNameTextBox" HorizontalAlignment="Left" Height="23" Margin="183,74,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="393" FontSize="16" FontFamily="Tahoma"/>
+        <Label x:Name="label" Content="Username" HorizontalAlignment="Left" Margin="11,70,0,0" VerticalAlignment="Top" Width="117" FontSize="16" FontFamily="Tahoma"/>
+        <Label x:Name="label_Copy" Content="Password" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" Width="117" FontSize="16" FontFamily="Tahoma"/>
+        <Label x:Name="label_Copy1" Content="LOG IN OR REGISTER" HorizontalAlignment="Left" Margin="11,10,0,0" VerticalAlignment="Top" Width="315" FontSize="26.667" FontFamily="Tahoma" FontWeight="Bold"/>
+        <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Left" Margin="22,229,0,0" VerticalAlignment="Top" Width="75" FontFamily="Tahoma" FontSize="18.667" Click="BackButton_Click"/>
+        <Button x:Name="RegisterButton" Content="Register" HorizontalAlignment="Left" Margin="488,229,0,0" VerticalAlignment="Top" Width="75" FontFamily="Tahoma" FontSize="18.667" Click="RegisterButton_Click" IsEnabled="False"/>
+        <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" Margin="183,102,0,0" Width="393" VerticalAlignment="Top" Height="23" PasswordChanged="PasswordBox_PasswordChanged"/>
+        <Label x:Name="PasswordHelpLabel" Content="" HorizontalAlignment="Left" Margin="612,96,0,0" VerticalAlignment="Top" Width="140" FontFamily="Tahoma" FontSize="16"/>
+        <Label x:Name="label_Copy2" Content="Confirm Password" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top" Width="143" FontSize="16" FontFamily="Tahoma"/>
+        <PasswordBox x:Name="ConfirmPasswordBox" HorizontalAlignment="Left" Margin="183,130,0,0" Width="393" VerticalAlignment="Top" Height="23" PasswordChanged="ConfirmPasswordBox_PasswordChanged"/>
+        <Label x:Name="label_Copy3" Content="Email" HorizontalAlignment="Left" Margin="10,157,0,0" VerticalAlignment="Top" Width="117" FontSize="16" FontFamily="Tahoma"/>
+        <TextBox x:Name="EmailTextBox" HorizontalAlignment="Left" Margin="183,158,0,0" Width="393" VerticalAlignment="Top" Height="23"/>
+        <Label x:Name="PasswordSameLabel" Content="" HorizontalAlignment="Left" Margin="612,130,0,0" VerticalAlignment="Top" Width="140" FontFamily="Tahoma" FontSize="16"/>
+
+    </Grid>
+</Window>
